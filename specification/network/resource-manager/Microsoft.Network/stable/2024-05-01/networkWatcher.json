@@ -3196,6 +3196,10 @@
           "description": "Optional field to filter network traffic logs based on SrcIP, SrcPort, DstIP, DstPort, Protocol, Encryption, Direction and Action. If not specified, all network traffic will be logged.",
           "type": "string"
         },
+        "recordTypes": {
+          "description": "Optional field to filter network traffic logs based on flow states. Value of this field could be any comma separated combination string of letters B,C,E or D. If not specified, all network traffic will be logged.",
+          "type": "string"
+        },
         "enabled": {
           "description": "Flag to enable/disable flow logging.",
           "type": "boolean"
